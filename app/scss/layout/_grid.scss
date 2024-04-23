@@ -1,0 +1,58 @@
+@use '../util' as u;
+
+.grid {
+  &__sidebar {
+    height: 800px;
+    width: 250px;
+    position: relative;
+    top: 52px;
+    right: 0;
+    padding-top: 40px;
+    background-color: hsl(195, 100%, 33%);
+
+  }
+  // position: fixed;
+  // display: grid;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: auto auto;
+  // gap: u.rem(40);
+  // width: min(100% - u.rem(40), u.rem(1000));
+  // margin-inline: auto;
+  // padding-top: 60px;
+
+  // @include u.breakpoint(large) {
+  //   grid-template-columns: 1fr 2fr;
+  //   grid-template-rows: auto;
+  // }
+
+  // &__main,
+  // &__sidebar {
+  //   padding: u.rem(40);
+  // }
+
+  // &__main {
+  //   background-color: hsl(240, 99%, 33%);
+
+  //   @include u.breakpoint(medium) {
+  //     background-color: hsl(120, 100%, 16%);
+  //   }
+
+  //   @include u.breakpoint(large) {
+  //     background-color: hsl(39, 100%, 35%);
+  //   }
+  // }
+
+  // &__sidebar {
+  //   @include u.breakpoint-down(medium) {
+  //     text-align: center;
+  //   }
+
+  //   @include u.breakpoint-down(small) {
+  //     text-align: right;
+  //   }
+  // }
+
+  // &__widget {
+  //   padding: u.rem(32);
+  // }
+}
