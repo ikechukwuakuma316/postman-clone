@@ -8,9 +8,61 @@
     top: 52px;
     right: 0;
     padding-top: 40px;
-    background-color: hsl(195, 100%, 33%);
+    padding-left: 40px;
+    // line-height: 0.2em;
+    background-color: hsl(0, 0%, 19%);
+      
+    h4 {
+      color: hsl(0, 0%, 100%);
+      }
 
+    p {
+      color: hsl(0, 0%, 90%);
+      font-size: x-small;
+     
+    }
+
+    .box__2{
+      ul {
+        list-style-type: none;
+        list-style-type: none;
+          li {
+            a {
+              text-decoration: none;
+              font-size: small;
+              color: white;
+              // text-align: start;    
+              padding-right: 100px;
+            }
+          }
+      }
+    }
+
+    .box__3{
+      ul {
+        list-style-type: none;
+        list-style-type: none;
+          li {
+            a {
+              text-decoration: none;
+              font-size: small;
+              color: hsl(0, 0%, 65%);
+              // text-align: start;    
+              padding-right: 100px;
+            }
+          }
+      }
+    }
+   
+
+    
   }
+
+}
+ 
+  // &__main {
+  //   color: red;
+  // }
   // position: fixed;
   // display: grid;
   // grid-template-columns: 1fr;
@@ -55,4 +107,4 @@
   // &__widget {
   //   padding: u.rem(32);
   // }
-}
+
