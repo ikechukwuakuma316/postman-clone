@@ -2,6 +2,7 @@
 
 .grid {
   &__sidebar {
+    overflow: hidden;
     height: 800px;
     width: 250px;
     position: relative;
@@ -12,6 +13,10 @@
     // line-height: 0.2em;
     background-color: hsl(0, 0%, 19%);
       
+    img {
+      width: 100;
+    }
+    
     h4 {
       color: hsl(0, 0%, 100%);
       }
